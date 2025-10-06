@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+.phone-wallpaper{
+    background-image: url('/wallpaper.png');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #cbd5e1;
+    border-radius: 8px;
+  }
+  
+  .dark ::-webkit-scrollbar-thumb {
+    background-color: #4b5563;
+  }
+  
