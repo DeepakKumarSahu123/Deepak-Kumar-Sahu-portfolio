@@ -4,7 +4,7 @@ import { ExternalLink } from 'lucide-react';
 
 const projects = [
   {
-    title: "Chat Application",
+    title: "Resume Checker",
     description: "A real-time chat application with authentication and cloud storage. Built with React.js and Firebase.",
     features: [
       "Firebase Authentication & Firestore",
